@@ -4,7 +4,8 @@
 package com.jagrosh.jmusicbot.queue;
 /*panja testing checking checking squash
 * S
-* adding 1 */
+* adding 1
+* adding 2*/
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
