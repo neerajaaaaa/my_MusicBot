@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: com.jagrosh:jda-utilities-examples:3.0.5" type="java-imported" external-system-id="Maven">
+    <properties groupId="com.jagrosh" artifactId="jda-utilities-examples" version="3.0.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-examples/3.0.5/jda-utilities-examples-3.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-examples/3.0.5/jda-utilities-examples-3.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jagrosh/jda-utilities-examples/3.0.5/jda-utilities-examples-3.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

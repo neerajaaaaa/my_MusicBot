@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.jagrosh:JLyrics:master-01cf4ee007-1" type="java-imported" external-system-id="Maven">
+    <properties groupId="com.github.jagrosh" artifactId="JLyrics" version="master-01cf4ee007-1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/jagrosh/JLyrics/master-01cf4ee007-1/JLyrics-master-01cf4ee007-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/jagrosh/JLyrics/master-01cf4ee007-1/JLyrics-master-01cf4ee007-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/jagrosh/JLyrics/master-01cf4ee007-1/JLyrics-master-01cf4ee007-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

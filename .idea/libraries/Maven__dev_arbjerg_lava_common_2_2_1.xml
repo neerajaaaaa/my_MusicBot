@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: dev.arbjerg:lava-common:2.2.1" type="java-imported" external-system-id="Maven">
+    <properties groupId="dev.arbjerg" artifactId="lava-common" version="2.2.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/arbjerg/lava-common/2.2.1/lava-common-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/arbjerg/lava-common/2.2.1/lava-common-2.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/arbjerg/lava-common/2.2.1/lava-common-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
