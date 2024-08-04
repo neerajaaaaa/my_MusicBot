@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: dev.lavalink.youtube:common:1.5.1" type="java-imported" external-system-id="Maven">
+    <properties groupId="dev.lavalink.youtube" artifactId="common" version="1.5.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/lavalink/youtube/common/1.5.1/common-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/lavalink/youtube/common/1.5.1/common-1.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/lavalink/youtube/common/1.5.1/common-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

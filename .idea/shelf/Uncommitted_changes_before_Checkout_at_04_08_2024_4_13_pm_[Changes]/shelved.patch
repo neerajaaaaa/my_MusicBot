@@ -1,0 +1,19 @@
+Index: src/main/java/com/jagrosh/jmusicbot/queue/FairQueue.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\r\n * Copyright 2016 John Grosh (jagrosh).\r\n *\r\n * Licensed under the Apache License, Version 2.0 (the \"License\");\r\n * you may not use this file except in compliance with the License.\r\n * You may obtain a copy of the License at\r\n *\r\n *      http://www.apache.org/licenses/LICENSE-2.0\r\n *\r\n * Unless required by applicable law or agreed to in writing, software\r\n * distributed under the License is distributed on an \"AS IS\" BASIS,\r\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n * See the License for the specific language governing permissions and\r\n * limitations under the License.\r\n */\r\npackage com.jagrosh.jmusicbot.queue;\r\n\r\nimport java.util.HashSet;\r\nimport java.util.Set;\r\n\r\n/**\r\n *\r\n * @author John Grosh (jagrosh)\r\n * @param <T>\r\n */\r\npublic class FairQueue<T extends Queueable> extends AbstractQueue<T>\r\n{\r\n    public FairQueue(AbstractQueue<T> queue)\r\n    {\r\n        super(queue);\r\n    }\r\n/*\r\n* testing branch*/\r\n    protected final Set<Long> set = new HashSet<>();\r\n\r\n    @Override\r\n    public int add(T item)\r\n    {\r\n        int lastIndex;\r\n        for(lastIndex=list.size()-1; lastIndex>-1; lastIndex--)\r\n            if(list.get(lastIndex).getIdentifier() == item.getIdentifier())\r\n                break;\r\n        lastIndex++;\r\n        set.clear();\r\n        for(; lastIndex<list.size(); lastIndex++)\r\n        {\r\n            if(set.contains(list.get(lastIndex).getIdentifier()))\r\n                break;\r\n            set.add(list.get(lastIndex).getIdentifier());\r\n        }\r\n        list.add(lastIndex, item);\r\n        return lastIndex;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/jagrosh/jmusicbot/queue/FairQueue.java b/src/main/java/com/jagrosh/jmusicbot/queue/FairQueue.java
+--- a/src/main/java/com/jagrosh/jmusicbot/queue/FairQueue.java	(revision 425845ec7d3f0d6811f8c5e6723ffa1e5893df9f)
++++ b/src/main/java/com/jagrosh/jmusicbot/queue/FairQueue.java	(date 1722805995257)
+@@ -32,7 +32,7 @@
+ /*
+ * testing branch*/
+     protected final Set<Long> set = new HashSet<>();
+-
++/*by changing the branch*/
+     @Override
+     public int add(T item)
+     {
